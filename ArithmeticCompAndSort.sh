@@ -7,3 +7,4 @@ read -p "Enter the value for c" c
 arith1=$((a+b*c))
 arith2=$((a*b+c))
 arith3=$((c+a/b))
+arith4=$((a%b+c))

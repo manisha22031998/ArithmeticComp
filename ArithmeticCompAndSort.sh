@@ -19,7 +19,14 @@ for value in ${result[@]}
 do
 	arr[((i++))]=$value
 done
+echo Descending order
 for ele in ${arr[@]}
 do
 	echo $ele
 done | sort -nr
+echo Ascending Order
+for ele in ${arr[@]}
+do
+        echo $ele
+done | sort -n
+

@@ -19,4 +19,7 @@ for value in ${result[@]}
 do
 	arr[((i++))]=$value
 done
-echo ${arr[@]}
+for ele in ${arr[@]}
+do
+	echo $ele
+done | sort -nr
